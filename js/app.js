@@ -20,6 +20,12 @@ document.getElementById("icon1").style.width = "40px";
 
 
 
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 AOS.init({
   duration: 1500,
 });
